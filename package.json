@@ -37,7 +37,7 @@
     "execa": "^9.6.0",
     "fs-extra": "^11.3.2",
     "minimist": "^1.2.8",
-    "openclaw": "2026.2.26",
+    "openclaw": "github:openclaw/openclaw#67e61acac71c71d4badebeed9ed6f67b97a4cb9d",
     "prettier": "^3.8.1",
     "typescript": "^5.9.3"
   },

@@ -10,7 +10,8 @@
  */
 
 import type { ChannelMeta, ChannelPlugin, ChannelThreadingToolContext, ClawdbotConfig } from 'openclaw/plugin-sdk';
-import { DEFAULT_ACCOUNT_ID, PAIRING_APPROVED_MESSAGE } from 'openclaw/plugin-sdk';
+import { PAIRING_APPROVED_MESSAGE } from 'openclaw/plugin-sdk';
+import { DEFAULT_ACCOUNT_ID } from 'openclaw/plugin-sdk/account-id';
 import type { LarkAccount } from '../core/types';
 import { getLarkAccount, getLarkAccountIds, getDefaultLarkAccountId } from '../core/accounts';
 import {
